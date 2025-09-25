@@ -1,5 +1,14 @@
 @charset "UTF-08";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Playwrite+MX+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Passion+One:wght@400;700;900&family=Playwrite+MX+Guides&display=swap');
+
+:root{
+    --font1: verdana, Geneva, Tahoma, san-serif;
+    --font2: "Passion One", sans-serif;
+    --font3: "Playwrite MX Guides", cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,6 +17,7 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font1);
 }
 
 header{
@@ -19,6 +29,8 @@ header{
 header>h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 10vw;
 }
 
 header>p{
@@ -40,6 +52,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
 }
 
 section.normal{
@@ -53,8 +67,9 @@ section.imagem{
 }
 
 section.imagem>p{
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.299);
-    width: 400px;
 }
 
 footer{
