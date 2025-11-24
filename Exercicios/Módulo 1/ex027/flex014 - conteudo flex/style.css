@@ -25,4 +25,9 @@ header, section.normal{
 section.flex-content{
     padding: 20px;
     background-color: rgba(128, 128, 128, 0.453);
+    display: flex;
+}
+
+section>article{
+    border: 2px dashed green;
 }
